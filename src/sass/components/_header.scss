@@ -1,2 +1,49 @@
 .header {
+	padding-inline: clamp(2.8rem, 7.5vw, var(--spacing-7));
+
+	@media (min-width: $medium-bp) {
+		display: grid;
+		place-items: center;
+		grid-auto-flow: dense;
+		grid-template-columns: repeat(2, 1fr);
+
+		& > *:first-child {
+			grid-column: 2;
+		}
+	}
+
+	&__image {
+		@media (max-width: $medium-bp) {
+			margin-bottom: 4.2rem;
+			margin-inline: auto;
+			max-width: calc(100% - 2 * 0.8rem);
+		}
+	}
+
+	&__body {
+		@media (max-width: $medium-bp) {
+			text-align: center;
+		}
+	}
+
+	&__main-heading {
+		margin-bottom: var(--spacing-4);
+		font-size: clamp(var(--fz-medium), 4vw, var(--fz-large-xl));
+		line-height: 1.5;
+
+		@media (min-width: $medium-bp) {
+			margin-bottom: 2rem;
+		}
+	}
+
+	&__text {
+		margin-bottom: clamp(var(--spacing-4), 4vw, 3.2rem);
+		font-size: var(--fz-small-exclusive);
+		line-height: 1.5;
+
+		@media (min-width: $medium-bp) {
+			margin-right: 6.5rem;
+			font-size: var(--fz-regular);
+		}
+	}
 }

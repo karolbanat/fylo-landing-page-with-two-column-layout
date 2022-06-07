@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-inline: clamp(var(--spacing-3), 6.5vw, 8rem);
+	padding-inline: clamp(var(--spacing-3), 6.5vw, var(--spacing-7));
 	padding-top: clamp(var(--spacing-3), 5vw, 6.5rem);
 	padding-bottom: 0;
 	margin-bottom: clamp(8.5rem, 12rem - 3vw, 10rem);

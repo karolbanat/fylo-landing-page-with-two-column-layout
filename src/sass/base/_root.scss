@@ -1,0 +1,44 @@
+:root {
+	// colors
+	--clr-primary-700: hsl(243, 87%, 12%);
+	--clr-primary-400: hsl(238, 22%, 44%);
+
+	--clr-accent-700: hsl(224, 93%, 58%);
+	--clr-accent-600: hsl(221, 100%, 71%);
+	--clr-accent-400: hsl(170, 45%, 43%);
+	--clr-accent-300: hsl(170, 63%, 66%);
+
+	--clr-neutral-700: hsl(240, 75%, 98%);
+	--clr-neutral-400: hsl(0, 0%, 75%);
+	--clr-neutral-300: hsl(343, 84%, 61%);
+
+	--clr-white: hsl(0, 0%, 100%);
+
+	// font families
+	--ff-primary: 'Open Sans', sans-serif;
+	--ff-secondary: 'Raleway', sans-serif;
+
+	// stage
+	--body: var(--clr-primary-700);
+
+	--bg-about: var(--clr-neutral-400);
+	--bg-testimonial: var(--clr-white);
+
+	--sign-in: var(--clr-white);
+	--bg-sign-in: var(--clr-primary-400);
+
+	--footer: var(--clr-white);
+	--bg-footer: var(--clr-primary-700);
+
+	--button: var(--clr-white);
+	--bg-button: var(--clr-accent-700);
+	--bg-button-hover: var(--clr-accent-600);
+
+	--input-border: var(--clr-primary-700);
+	--input-placeholder: var(--clr-neutral-400);
+
+	--fylo-link: var(--clr-accent-400);
+	--fylo-link-hover: var(--clr-accent-300);
+
+	--media-link-hover: var(--clr-accent-600);
+}

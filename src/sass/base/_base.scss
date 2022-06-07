@@ -1,0 +1,12 @@
+body {
+	font-family: var(--ff-primary);
+}
+
+h1,
+h2,
+h3,
+button,
+input,
+input::placeholder {
+	font-family: var(--ff-secondary);
+}

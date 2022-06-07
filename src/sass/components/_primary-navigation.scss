@@ -1,0 +1,37 @@
+.primary-navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: clamp(var(--spacing-3), 6.5vw, 8rem);
+	padding-top: clamp(var(--spacing-3), 5vw, 6.5rem);
+	padding-bottom: 0;
+	margin-bottom: clamp(8.5rem, 12rem - 3vw, 10rem);
+
+	&__logo {
+		max-width: clamp(8rem, 15vw, 16.5rem);
+	}
+
+	&__nav-links {
+		display: flex;
+		gap: var(--spacing-3);
+
+		@media (min-width: $small-bp) {
+			gap: 5.6rem;
+		}
+	}
+
+	&__nav-link {
+		font-size: var(--fz-small);
+
+		@media (min-width: $small-bp) {
+			font-size: var(--fz-regular);
+		}
+
+		a {
+			padding-block: 0.5em;
+			font-family: var(--ff-secondary);
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+}

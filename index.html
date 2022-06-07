@@ -17,26 +17,28 @@
 </head>
 
 <body>
-
-	<header class="header">
-		<nav class="primary-navigation" aria-label="Primary navigation">
-			<img src="./dist/images/logo.svg" alt="Fylo logo" class="primary-navigation__logo">
-			<ul class="primary-navigation__nav-links">
-				<li class="primary-navigation__nav-link"><a href="#">Features</a></li>
-				<li class="primary-navigation__nav-link"><a href="#">Team</a></li>
-				<li class="primary-navigation__nav-link"><a href="#">Sign In</a></li>
-			</ul>
-		</nav>
+	<nav class="primary-navigation" aria-label="Primary navigation">
+		<img src="./dist/images/logo.svg" alt="Fylo logo" class="primary-navigation__logo">
+		<ul class="primary-navigation__nav-links">
+			<li class="primary-navigation__nav-link"><a href="#">Features</a></li>
+			<li class="primary-navigation__nav-link"><a href="#">Team</a></li>
+			<li class="primary-navigation__nav-link"><a href="#">Sign In</a></li>
+		</ul>
+	</nav>
+	<header class="header" aria-labelledby="heading-header">
 		<img src="./dist/images/illustration-1.svg" alt="Illustration of two people packing files to folder."
 			class="header__image">
-		<h1 class="header__main-heading">All your files in one secure location, accessible anywhere.</h1>
-		<p class="header__text">Fylo stores your most important files in one secure location.
-			Access them wherever you need, share and collaborate with friends,
-			family, and co-workers.</p>
-		<form class="sign-in">
-			<input type="email" class="sign-ing__input" aria-label="Email address">
-			<button class="btn">Get Started</button>
-		</form>
+		<div class="header__body">
+			<h1 id="heading-header" class="header__main-heading">All your files in one secure location, accessible
+				anywhere.</h1>
+			<p class="header__text">Fylo stores your most important files in one secure location.
+				Access them wherever you need, share and collaborate with friends,
+				family, and co-workers.</p>
+			<form class="sign-in">
+				<input type="email" class="sign-ing__input" aria-label="Email address">
+				<button class="btn">Get Started</button>
+			</form>
+		</div>
 	</header>
 	<main>
 		<section class="about" aria-labelledby="heading-about">

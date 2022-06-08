@@ -1,0 +1,32 @@
+.sign-in {
+	&__input {
+		padding: var(--spacing-100) var(--spacing-200);
+		width: 100%;
+		margin-bottom: var(--spacing-2);
+		font-size: var(--fz-small);
+		border: 1px solid var(--input-border);
+		border-radius: 0.3rem;
+
+		@media (min-width: $small-bp) {
+			font-size: var(--fz-small-exclusive);
+		}
+
+		&::placeholder {
+			color: var(--input-placeholder);
+		}
+
+		&--inline {
+			@media (min-width: $large-bp) {
+				margin-bottom: 0.25em;
+				margin-right: var(--spacing-2);
+				width: clamp(10em, 20vw, 20em);
+			}
+		}
+	}
+
+	&__btn {
+		@media (max-width: $large-bp) {
+			width: 100%;
+		}
+	}
+}

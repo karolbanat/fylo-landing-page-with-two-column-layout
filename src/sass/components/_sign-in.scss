@@ -25,7 +25,7 @@
 	}
 
 	&__btn {
-		@media (max-width: $large-bp) {
+		@media (max-width: calc($large-bp - 1px)) {
 			width: 100%;
 		}
 	}

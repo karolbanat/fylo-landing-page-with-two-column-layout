@@ -7,10 +7,15 @@
 		place-items: center;
 		grid-auto-flow: dense;
 		grid-template-columns: repeat(2, 1fr);
+		gap: var(--spacing-3);
 
 		& > *:first-child {
 			grid-column: 2;
 		}
+	}
+
+	@media (min-width: $large-bp) {
+		gap: 0;
 	}
 
 	&__image {

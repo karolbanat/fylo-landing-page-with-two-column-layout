@@ -1,0 +1,8 @@
+.grid {
+	@media (min-width: $medium-bp) {
+		display: grid;
+		place-items: center;
+		grid-auto-flow: dense;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

@@ -1,4 +1,9 @@
 .sign-in {
+	@media (min-width: $large-bp) {
+		display: flex;
+		align-items: center;
+	}
+
 	&__input {
 		padding: var(--spacing-100) var(--spacing-200);
 		width: 100%;
@@ -17,7 +22,7 @@
 
 		&--inline {
 			@media (min-width: $large-bp) {
-				margin-bottom: 0.25em;
+				margin-bottom: 0;
 				margin-right: var(--spacing-2);
 				width: clamp(10em, 20vw, 20em);
 			}
@@ -25,7 +30,7 @@
 	}
 
 	&__btn {
-		@media (max-width: calc($large-bp - 1px)) {
+		@media (max-width: $large-bp) {
 			width: 100%;
 		}
 	}

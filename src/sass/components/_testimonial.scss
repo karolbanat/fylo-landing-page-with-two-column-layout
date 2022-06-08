@@ -1,0 +1,30 @@
+.testimonial {
+	max-width: 22.25em;
+	padding: 2rem;
+	text-align: left;
+	background-color: var(--bg-testimonial);
+	border-radius: 0.5rem;
+
+	@media (max-width: $medium-bp) {
+		margin-inline: auto;
+	}
+
+	@media (min-width: $medium-bp) {
+		padding: var(--spacing-4) var(--spacing-5);
+	}
+
+	&__icon {
+		margin-bottom: 0.25em;
+	}
+
+	&__quote {
+		display: inline-block;
+		margin-bottom: var(--spacing-2);
+		font-size: var(--fz-small);
+		line-height: 1.8;
+
+		@media (min-width: $small-bp) {
+			font-size: var(--fz-small-exclusive);
+		}
+	}
+}

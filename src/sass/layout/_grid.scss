@@ -1,8 +1,29 @@
 .grid {
 	@media (min-width: $medium-bp) {
 		display: grid;
-		place-items: center;
+		align-items: center;
 		grid-auto-flow: dense;
-		grid-template-columns: repeat(2, 1fr);
+
+		&--reversed {
+			& > *:first-child {
+				grid-column: 2;
+			}
+		}
+
+		&--double {
+			grid-template-columns: repeat(2, 1fr);
+
+			@media (min-width: $medium-bp) {
+				gap: var(--spacing-3);
+			}
+
+			@media (min-width: $large-bp) {
+				gap: 0;
+			}
+		}
+
+		&--double-3-2 {
+			grid-template-columns: 3fr 2fr;
+		}
 	}
 }

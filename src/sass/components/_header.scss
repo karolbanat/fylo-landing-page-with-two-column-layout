@@ -1,5 +1,6 @@
 .header {
 	padding-inline: clamp(2.8rem, 7.5vw, var(--spacing-7));
+	padding-bottom: clamp(9rem, 17.5vw, 16.5rem);
 
 	@media (min-width: $medium-bp) {
 		display: grid;

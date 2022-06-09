@@ -25,5 +25,9 @@
 		&--double-3-2 {
 			grid-template-columns: 3fr 2fr;
 		}
+
+		&--triple {
+			grid-template-columns: repeat(3, 1fr);
+		}
 	}
 }

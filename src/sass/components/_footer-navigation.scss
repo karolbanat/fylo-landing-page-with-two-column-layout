@@ -1,0 +1,18 @@
+.footer-navigation {
+	min-width: 100%;
+	@media (min-width: $medium-bp) {
+		display: flex;
+		justify-content: space-between;
+		padding-inline: var(--spacing-3);
+	}
+
+	&__nav-col {
+		padding-block: var(--spacing-2);
+	}
+
+	&__nav-link {
+		&:not(:last-child) {
+			margin-bottom: var(--spacing-2);
+		}
+	}
+}

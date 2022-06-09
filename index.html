@@ -11,6 +11,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
 	<link rel="stylesheet" href="./dist/css/main.min.css">
 
 	<title>Frontend Mentor | Fylo landing page with two column layout</title>
@@ -18,7 +19,7 @@
 
 <body>
 	<nav class="primary-navigation" aria-label="Primary navigation">
-		<img src="./dist/images/logo.svg" alt="Fylo logo" class="primary-navigation__logo">
+		<img src="./dist/images/logo.svg" alt="Fylo logo" class="logo">
 		<ul class="primary-navigation__nav-links">
 			<li class="primary-navigation__nav-link"><a href="#">Features</a></li>
 			<li class="primary-navigation__nav-link"><a href="#">Team</a></li>
@@ -97,32 +98,41 @@
 	</main>
 
 	<footer class="footer">
-		<img src="./dist/images/logo.svg" alt="Fylo logo" class="footer__logo">
-		<div class="footer__body">
-			<ul class="contact">
-				<li class="contact__info"><img src="./dist/images/icon-phone.svg" alt="" class="contact__icon"> Phone:
-					<a href="tel:+1-543-123-4567" class="contact__link">+1-543-123-4567</a>
-				</li>
-				<li class="contact__info"><img src="./dist/images/icon-email.svg" alt="" class="contact__icon"> <a
-						href="mailto:example@fylo.com" class="contact__link">example@fylo.com</a></li>
-			</ul>
-			<ul class="footer-navigation" aria-label="Footer navigation">
-				<li class="footer-navigation__nav-link"><a href="#">About Us</a></li>
-				<li class="footer-navigation__nav-link"><a href="#">Jobs</a></li>
-				<li class="footer-navigation__nav-link"><a href="#">Press</a></li>
-				<li class="footer-navigation__nav-link"><a href="#">Blog</a></li>
-				<li class="footer-navigation__nav-link"><a href="#">Contact Us</a></li>
-				<li class="footer-navigation__nav-link"><a href="#">Terms</a></li>
-				<li class="footer-navigation__nav-link"><a href="#">Privacy</a></li>
-			</ul>
-			<ul class="media">
-				<li class="media__link"><a href="#"><img src="./dist/images/facebook-icon.svg" alt=""
-							class="media__icon"></a></li>
-				<li class="media__link"><a href="#"><img src="./dist/images/twitter-icon.svg" alt=""
-							class="media__icon"></a></li>
-				<li class="media__link"><a href="#"><img src="./dist/images/instagram-icon.svg" alt=""
-							class="media__icon"></a></li>
-			</ul>
+		<div class="container">
+			<img src="./dist/images/logo.svg" alt="Fylo logo" class="logo logo--white footer__logo">
+			<div class="footer__body grid grid--triple">
+				<ul class="contact">
+					<li class="contact__info"><img src="./dist/images/icon-phone.svg" alt="" class="contact__icon">
+						Phone:
+						<a href="tel:+1-543-123-4567"> +1-543-123-4567</a>
+					</li>
+					<li class="contact__info"><img src="./dist/images/icon-email.svg" alt="" class="contact__icon"> <a
+							href="mailto:example@fylo.com">example@fylo.com</a></li>
+				</ul>
+				<ul class="footer-navigation" aria-label="Footer navigation">
+					<li class="footer-navigation__nav-col">
+						<ul>
+							<li class="footer-navigation__nav-link"><a href="#">About Us</a></li>
+							<li class="footer-navigation__nav-link"><a href="#">Jobs</a></li>
+							<li class="footer-navigation__nav-link"><a href="#">Press</a></li>
+							<li class="footer-navigation__nav-link"><a href="#">Blog</a></li>
+						</ul>
+					</li>
+					<li class="footer-navigation__nav-col">
+						<ul>
+							<li class="footer-navigation__nav-link"><a href="#">Contact Us</a></li>
+							<li class="footer-navigation__nav-link"><a href="#">Terms</a></li>
+							<li class="footer-navigation__nav-link"><a href="#">Privacy</a></li>
+						</ul>
+					</li>
+
+				</ul>
+				<ul class="media">
+					<li><a href="#" class="media__link"><i class="ti ti-brand-facebook"></i></a></li>
+					<li><a href="#" class="media__link"><i class="ti ti-brand-twitter"></i></a></li>
+					<li><a href="#" class="media__link"><i class="ti ti-brand-instagram"></i></a></li>
+				</ul>
+			</div>
 		</div>
 	</footer>
 </body>

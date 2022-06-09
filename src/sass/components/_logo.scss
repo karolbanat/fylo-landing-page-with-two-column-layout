@@ -1,0 +1,7 @@
+.logo {
+	max-width: clamp(8rem, 15vw, 16.5rem);
+
+	&--white {
+		filter: brightness(0) invert(1);
+	}
+}

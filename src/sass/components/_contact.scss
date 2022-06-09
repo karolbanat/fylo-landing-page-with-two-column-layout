@@ -1,0 +1,13 @@
+.contact {
+	display: grid;
+	gap: var(--spacing-2);
+	padding-block: var(--spacing-2);
+
+	&__info {
+		display: flex;
+	}
+
+	&__icon {
+		margin-right: var(--spacing-2);
+	}
+}

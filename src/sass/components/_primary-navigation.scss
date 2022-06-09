@@ -7,10 +7,6 @@
 	padding-bottom: 0;
 	margin-bottom: clamp(8.5rem, 12rem - 3vw, var(--spacing-10));
 
-	&__logo {
-		max-width: clamp(8rem, 15vw, 16.5rem);
-	}
-
 	&__nav-links {
 		display: flex;
 		gap: var(--spacing-3);

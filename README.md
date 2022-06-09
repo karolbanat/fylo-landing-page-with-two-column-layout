@@ -5,7 +5,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 ### Links
 
 - Solution URL: [Frontendmentor Solution Page](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages Site](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages Site](https://karolbanat.github.io/fylo-landing-page-with-two-column-layout/)
 
 ## Author
 

@@ -2,7 +2,7 @@
 	position: relative;
 	padding-inline: clamp(2.8rem, 7.5vw, var(--spacing-7));
 	padding-top: clamp(9rem, 17vw, 18rem);
-	padding-bottom: clamp(var(--spacing-7), 12.5vw, 10.5rem);
+	padding-bottom: clamp(var(--spacing-7), 12.5vw, var(--spacing-9));
 	background-color: var(--bg-about);
 	z-index: 0;
 

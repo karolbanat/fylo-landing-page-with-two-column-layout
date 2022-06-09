@@ -1,9 +1,4 @@
 .sign-in {
-	@media (min-width: $large-bp) {
-		display: flex;
-		align-items: center;
-	}
-
 	&__input {
 		padding: var(--spacing-100) var(--spacing-200);
 		width: 100%;

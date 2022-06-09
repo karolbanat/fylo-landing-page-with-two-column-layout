@@ -40,7 +40,9 @@
 
 	&__heading {
 		margin-bottom: clamp(var(--spacing-4), 4vw, var(--spacing-6));
+
 		font-size: clamp(var(--fz-regular), 4vw, var(--fz-large-xl));
+		color: var(--heading);
 	}
 
 	&__text {

@@ -22,6 +22,8 @@
 		font-size: clamp(var(--fz-medium), 4vw, var(--fz-large-xl));
 		line-height: 1.5;
 
+		color: var(--heading);
+
 		@media (min-width: $medium-bp) {
 			margin-bottom: 2rem;
 		}
@@ -29,6 +31,7 @@
 
 	&__text {
 		margin-bottom: clamp(var(--spacing-4), 4vw, var(--spacing-5));
+		max-width: 58ch;
 
 		font-size: var(--fz-small-exclusive);
 		line-height: 1.5;

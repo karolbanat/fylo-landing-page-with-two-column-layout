@@ -1,7 +1,9 @@
 .testimonial {
-	max-width: 22.25em;
 	padding: 2rem;
+	max-width: 22.25em;
+
 	text-align: left;
+
 	background-color: var(--bg-testimonial);
 	border-radius: 0.5rem;
 
@@ -20,6 +22,7 @@
 	&__quote {
 		display: inline-block;
 		margin-bottom: var(--spacing-2);
+
 		font-size: var(--fz-small);
 		line-height: 1.8;
 

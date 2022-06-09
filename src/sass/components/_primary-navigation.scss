@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
 	padding-inline: clamp(var(--spacing-3), 6.5vw, var(--spacing-8));
 	padding-top: clamp(var(--spacing-3), 5vw, var(--spacing-7));
 	padding-bottom: 0;
@@ -25,9 +26,16 @@
 
 		a {
 			padding-block: 0.5em;
+
 			font-family: var(--ff-secondary);
 			text-decoration: none;
+
 			color: inherit;
+			transition: opacity 0.4s ease-in-out;
+
+			&:hover {
+				opacity: 0.5;
+			}
 		}
 	}
 }

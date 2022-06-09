@@ -1,9 +1,11 @@
 .sign-in {
 	&__input {
 		padding: var(--spacing-100) var(--spacing-200);
-		width: 100%;
 		margin-bottom: var(--spacing-2);
+		width: 100%;
+
 		font-size: var(--fz-small);
+
 		border: 1px solid var(--input-border);
 		border-radius: 0.3rem;
 

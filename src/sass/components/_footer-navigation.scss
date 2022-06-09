@@ -1,8 +1,10 @@
 .footer-navigation {
 	min-width: 100%;
+
 	@media (min-width: $medium-bp) {
 		display: flex;
 		justify-content: space-between;
+
 		padding-inline: var(--spacing-3);
 	}
 

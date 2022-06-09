@@ -3,14 +3,18 @@
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
+
 	padding-top: var(--spacing-2);
 
 	&__link {
 		display: grid;
 		place-content: center;
+
 		width: 2.8rem;
 		aspect-ratio: 1;
+
 		font-size: var(--fz-regular);
+
 		border: 1px solid var(--clr-white);
 		border-radius: 50%;
 

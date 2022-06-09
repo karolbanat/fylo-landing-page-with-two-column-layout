@@ -1,5 +1,6 @@
 .subscription {
 	padding-block: clamp(5.6rem, 8vw, var(--spacing-10)) clamp(7rem, 8vw, var(--spacing-9));
+
 	color: var(--subscription);
 	background-color: var(--bg-subscription);
 
@@ -13,11 +14,13 @@
 
 	&__heading {
 		margin-bottom: clamp(var(--spacing-2), 3vw, var(--spacing-3));
+
 		font-size: clamp(1.8rem, 4vw, var(--fz-large));
 	}
 
 	&__text {
 		max-width: 55ch;
+
 		font-size: var(--fz-regular);
 		line-height: 1.5;
 

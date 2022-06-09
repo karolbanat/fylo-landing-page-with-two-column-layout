@@ -1,10 +1,10 @@
 .subscription {
-	padding-block: clamp(5.6rem, 8vw, var(--spacing-9)) clamp(7rem, 8vw, 8.6rem);
+	padding-block: clamp(5.6rem, 8vw, var(--spacing-10)) clamp(7rem, 8vw, var(--spacing-9));
 	color: var(--subscription);
 	background-color: var(--bg-subscription);
 
 	&__header {
-		padding-inline: clamp(4.8rem, 8vw, var(--spacing-7));
+		padding-inline: clamp(4.8rem, 8vw, var(--spacing-8));
 
 		@media (max-width: $medium-bp) {
 			text-align: center;
@@ -29,6 +29,6 @@
 
 	&__sign-in {
 		padding-block: var(--spacing-3);
-		padding-inline: clamp(6.6rem, 8vw, 12rem);
+		padding-inline: clamp(var(--spacing-7), 8vw, 12rem);
 	}
 }

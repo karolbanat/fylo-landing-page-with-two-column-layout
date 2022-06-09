@@ -1,8 +1,8 @@
 .about {
 	position: relative;
 	padding-inline: clamp(2.8rem, 7.5vw, var(--spacing-7));
-	padding-top: clamp(9rem, 17vw, 18rem);
-	padding-bottom: clamp(var(--spacing-7), 12.5vw, var(--spacing-9));
+	padding-top: clamp(var(--spacing-9), 17vw, calc(2 * var(--spacing-9)));
+	padding-bottom: clamp(var(--spacing-8), 12.5vw, var(--spacing-10));
 	background-color: var(--bg-about);
 	z-index: 0;
 
@@ -31,7 +31,7 @@
 		}
 
 		@media (min-width: $medium-bp) {
-			padding-right: clamp(var(--spacing-3), 8vw, var(--spacing-7));
+			padding-right: clamp(var(--spacing-3), 8vw, var(--spacing-8));
 		}
 	}
 

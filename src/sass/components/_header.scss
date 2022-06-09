@@ -1,6 +1,6 @@
 .header {
-	padding-inline: clamp(2.8rem, 7.5vw, var(--spacing-7));
-	padding-bottom: clamp(9rem, 17.5vw, 16.5rem);
+	padding-inline: clamp(2.8rem, 7.5vw, var(--spacing-8));
+	padding-bottom: clamp(var(--spacing-9), 17.5vw, 16.5rem);
 
 	&__image {
 		@media (max-width: $medium-bp) {
@@ -27,7 +27,7 @@
 	}
 
 	&__text {
-		margin-bottom: clamp(var(--spacing-4), 4vw, 3.2rem);
+		margin-bottom: clamp(var(--spacing-4), 4vw, var(--spacing-5));
 		font-size: var(--fz-small-exclusive);
 		line-height: 1.5;
 
